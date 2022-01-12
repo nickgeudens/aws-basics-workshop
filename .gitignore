@@ -1,0 +1,8 @@
+frontend/node_modules
+frontend/build
+frontend/package-lock.json
+\.DS_Store
+node_modules
+build
+package-lock.json
+.serverless
