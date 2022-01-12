@@ -85,3 +85,13 @@ clean up the following resources:
 - the dynamodb table
 - both lambdas (will automatically delete the policies attached to them)
 - the api gateway
+
+## AWS CLI
+
+``` sudo pip3 install --upgrade awscli ```
+
+Go to IAM and click on your user, navigate to the tab Secure credentials, and create a pair. Use these in the configure step.
+
+```aws configure --profile ordina```
+
+
